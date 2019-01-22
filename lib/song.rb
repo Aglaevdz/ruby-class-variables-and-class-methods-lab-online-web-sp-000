@@ -24,6 +24,6 @@ class Song
   end
 
   def Song.genres
-    @@genres.uniqu
+    @@genres.uniq
   end
 end
