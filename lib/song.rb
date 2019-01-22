@@ -22,4 +22,8 @@ class Song
   def Song.artists
     @@artists.uniq
   end
+
+  def Song.genres
+    @@genres.uniqu
+  end
 end
