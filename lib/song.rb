@@ -19,7 +19,7 @@ class Song
     @@count
   end
 
-  def Song.artist
+  def Song.artists
     @@artist.uniq
   end
 end
